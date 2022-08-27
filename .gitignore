@@ -1,3 +1,17 @@
+*.js
+# performance folders
+performance-*
+
+#Macos files
+.DS_Store
+
+# emacs files
+*~
+\#*\#
+.\#*
+
+performance
+
 # Logs
 logs
 *.log

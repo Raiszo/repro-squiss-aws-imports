@@ -1,0 +1,28 @@
+{
+  "name": "repro-squiss-aws-imports",
+  "version": "1.0.0",
+  "description": "Example to trace aws-sdk imports inside squiss-ts library",
+  "main": "index.js",
+  "scripts": {
+    "performance": "tsc upstream-example.ts --generateTrace performance-upstream --incremental false && tsc modified-example.ts --generateTrace performance-modified --incremental false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiszo/repro-squiss-aws-imports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raiszo/repro-squiss-aws-imports/issues"
+  },
+  "homepage": "https://github.com/Raiszo/repro-squiss-aws-imports#readme",
+  "dependencies": {
+    "squiss-ts": "https://npm-tarballs-for-prs.s3.amazonaws.com/squiss-ts-4.3.0.tgz",
+    "upstream-squiss-ts": "npm:squiss-ts@^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  }
+}
