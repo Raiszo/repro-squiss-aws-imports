@@ -26,7 +26,7 @@ import * as S3 from 'aws-sdk/clients/s3'
 export {S3}
 ```
 In places where it will affect the final `.d.ts` files.
-The compilation time decreases by a lot, from almost 4 s to 800 ms.
+The compilation time decreases by a lot, from ~4 s to ~1 s
 ![modified](images/modified.png)
 
 ## Patched version
