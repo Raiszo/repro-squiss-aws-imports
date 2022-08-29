@@ -4,7 +4,7 @@
   "description": "Example to trace aws-sdk imports inside squiss-ts library",
   "main": "index.js",
   "scripts": {
-    "performance": "tsc upstream-example.ts --generateTrace performance-upstream --incremental false && tsc modified-example.ts --generateTrace performance-modified --incremental false"
+    "performance": "tsc -p tsconfig.upstream.json --generateTrace performance-upstream --incremental false && tsc -p tsconfig.modified.json --generateTrace performance-modified --incremental false"
   },
   "repository": {
     "type": "git",
