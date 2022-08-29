@@ -17,7 +17,7 @@ To get traces install dependencies and run `npm run performance` which will crea
 - `performance-upstream` trace using 4.3.0 squiss-ts version.
 - `performance-modified` trace using a modified version of the library that imports specific modules from the aws-sdk.
 
-To view traces navigate to [chrome::tracing]() and load the `trace.json` file, as suggested [here](https://github.com/microsoft/TypeScript/wiki/Performance-Tracing).
+To view traces navigate to [chrome://tracing]() and load the `trace.json` file, as suggested [here](https://github.com/microsoft/TypeScript/wiki/Performance-Tracing).
 
 ### Images
 #### upstrem version
